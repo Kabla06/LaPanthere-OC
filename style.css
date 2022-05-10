@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
 }
 
 .d-bloc button:hover {
@@ -477,6 +477,12 @@ button {
 
 .icon-md {
     font-size: 30px;
+    transition: all 0.3s;
+    color: #000000;
+}
+
+.social:hover>.icon-md:hover {
+    color: #ff8c64;
 }
 
 .icon-lg {
@@ -651,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -739,9 +745,11 @@ h4 {
 
 .white {
     color: #FFFFFF;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -773,7 +781,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #ff8c64;
+    background-color: #484848;
 }
 
 .tc-white {
@@ -784,8 +792,32 @@ h4 {
     color: #ffffff;
 }
 
+.text-presentation, .text-citation {
+    font-size: 18px;
+    font-weight: 500;
+    color: #646464;
+}
+
+.text-citation-char {
+    font-size: 18px;
+    font-weight: 300;
+    color: #484848;
+}
+
+.text-citation-titre2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #484848;
+}
+
 .tc-blanc {
     color:#ffffff;
+}
+
+.z-index {
+    z-index: 5;
+    font-size: 3em;
+    position: relative;
 }
 
 #bloc-6 > div > div > h1 {
@@ -836,7 +868,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -886,10 +918,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -898,8 +927,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
