@@ -289,7 +289,7 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar-brand {
@@ -319,7 +319,7 @@ a:hover {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .nav > li {
@@ -359,7 +359,7 @@ a:hover {
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 @media (min-width: 768px) {
@@ -482,7 +482,7 @@ button {
 }
 
 .social:hover>.icon-md:hover {
-    color: #ff8c64;
+    color: #d9acff;
 }
 
 .icon-lg {
@@ -523,7 +523,7 @@ button {
     bottom: 20px;
     right: 20px;
     opacity: 0;
-    z-index: 500;
+    /* z-index: 500; */
     transition: all .3s ease-in-out;
 }
 
@@ -553,7 +553,7 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
-    z-index: 1;
+    /* z-index: 1; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -598,7 +598,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 20;
+    /* z-index: 20; */
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -621,7 +621,7 @@ a[data-lightbox]:hover img {
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
-    z-index: 1;
+    /* z-index: 1; */
     opacity: 0.4;
 }
 
@@ -785,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFB694;
+    color: #d9acff;
 }
 
 .col-sm-12>.tc-blanc {
@@ -815,7 +815,7 @@ h4 {
 }
 
 .z-index {
-    z-index: 5;
+    /* z-index: 5; */
     font-size: 3em;
     position: relative;
 }
@@ -825,12 +825,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9b4ddb;
     color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
+    background: #6f34a0;
     color: #FFFFFF;
 }
 
